@@ -1,0 +1,9 @@
+const time = Date.now(); -->>  a 13 digit value representation of the current time;
+new Date(time); -->> an object with properties of date day time (hour,minute,second) of the passed timestamp;
+
+If an DOM elemnet have a name attribute set, the element can be called directly from the Document with the name of the element;(without using querySeletors);
+
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="Enter Minutes">
+
+The input element can be accessed by Document.customForm.minutes;
